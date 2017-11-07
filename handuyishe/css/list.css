@@ -1,0 +1,252 @@
+.banner{
+	width:100%;
+	margin-bottom: 10px;
+}
+.banner div{
+	width:100%;
+	height:160px;
+}
+.wrap{
+	width:1200px;
+	margin: 0 auto;
+}
+.wrap-title{
+	width:1000px;
+	margin:20px auto;
+}
+.wrap-title>ul>li{
+    font-family: '微软雅黑';
+	float: left;
+	height:20px;
+    position: relative;
+}
+.wrap-title>ul>li>a{
+	color:#000000;    
+	text-align: center;
+    float: left;
+    margin: 0 2px;
+    cursor: pointer;
+    padding: 0 14px;
+}
+li ol{
+	width:98px;
+	border: 1px solid #ccc;
+	padding:10px;
+	display: block;
+	position: absolute;
+	top:17px;
+	left: -33px;
+	display: none;
+	z-index: 9999;
+	background: white;
+}
+ol>li{
+	width:98px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+.choose{
+	width:998px;
+	margin: 0 auto;
+	height:30px;
+	border:1px solid #ccc ;
+	position: relative;
+	z-index: -1;
+}
+.choose>ul{
+    width: 360px;
+    float: left;
+    overflow: hidden;
+}
+.choose>ul>li{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-indent: -10px;
+    text-align: center;
+    border-right: 1px solid #DDD;
+}
+.choose>ul>li>a{
+	color: #565656;
+    line-height: 30px;
+    position: relative;
+}
+.choose>ul>li>a>i{
+    background: url(../img/list/arrs.png) center no-repeat;
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    width: 7px;
+    height: 8px;
+    display: block;
+}
+.choose>ul>li:nth-child(2)>a>i{
+	background-position:-9px -1px ;
+}
+.choose>ul>li:nth-child(3)>a>i{
+	background-position:-17px -1px ;
+}
+.choose>ul>li:nth-child(4)>a>i{
+	background-position:0px -1px ;
+}
+.pr-box
+{	float: left;
+    background: #FFF;
+    position: absolute;
+    top: 4px;
+    left: 360px;
+}
+code{
+    height: 22px;
+    line-height: 22px;
+    width: 13px;
+    text-align: center;
+}
+input{
+    padding: 1px 1px;
+    width: 37px;
+    height: 18px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+}
+.onsell{
+    float: left;
+    margin:0 0 0 120px;
+    line-height: 30px;
+}
+.onsell>input{
+	width:10px;
+	height:10px;
+	border: 1px solid #ccc;
+}
+.byy{
+	float: left;
+	margin: 0 20px;
+    line-height: 30px;
+}
+.byy>input{
+	width:10px;
+	height:10px;
+	border: 1px solid #ccc;
+}
+.shopnum{
+    float: right;
+    padding: 6px 8px;
+    font: 12px 'arial';
+    color: #666;
+    position: relative;
+}
+.shopnum>a{
+	width:18px;
+	line-height:18px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	border:1px solid #ccc;
+}
+
+
+
+.listnav{
+	padding-top:10px;
+    width: 1000px;
+    margin:0 auto;
+}
+.shoplist{
+	width:1030px;
+	overflow: hidden;
+	height: auto;
+}
+.work{
+	float: left;
+	width:238px;
+	height:280px;
+	border:1px solid #CCCCCC;
+	margin: 0 13px 20px 0;
+}
+.work>div{
+	margin:8px;
+}
+.work>div>a>img{
+	width:222px;
+	margin-bottom: 10px;
+}
+.work>div>p{
+	text-align: center;
+}
+.work>div>p>b{
+	color:#C80A28;
+	font-size: 14px;
+}
+.work>div>p>span{
+	font-size: 18px;
+	font-weight: 900;
+	color:#C80A28;
+	margin-right:10px;
+}
+.work>div>p>i{
+	font-style: normal;
+	color:#CCCCCC;
+	text-decoration: line-through;
+	font-size: 12px;
+}
+.work:hover{
+	border-color:#C80A28;
+}
+.pagenav{
+    text-align: center;
+    margin: 30px auto;
+    color: #888;
+}
+.pagenav>ul{
+	overflow: hidden;
+	text-align: center;
+	margin-left:389px;
+}
+.pagenav>ul>li{
+	float: left;
+	margin-right:15px;
+	line-height: 28px;
+}
+#first{
+	background: #EEEEEE;
+}
+.con{
+	width:58px;
+	line-height: 28px;
+	border: 1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+	color:black;
+}
+.numm{
+	width:28px;
+	cursor: pointer;
+	line-height:28px;
+	border:1px solid #CCCCCC;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
